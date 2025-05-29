@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Kent Torres - Web Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-50 text-gray-800;
+        }
+        /* Custom styles for section backgrounds */
+        .section-bg-light {
+            @apply bg-white;
+        }
+        .section-bg-dark {
+            @apply bg-gray-100;
+        }
+        .card {
+            @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
+        }
+        .skill-badge {
+            @apply inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full m-1;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 px-4 sm:px-6 lg:px-8 text-center relative overflow-hidden">
+        <div class="container mx-auto max-w-4xl">
+            <div class="mb-6">
+                <img src="images/me.jpg"" alt="Bryan Kent Torres" class="rounded-full border-4 border-white shadow-lg mx-auto w-44 h-44 object-cover">
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-2 leading-tight">BRYAN KENT TORRES</h1>
+            <p class="text-xl sm:text-2xl font-light mb-6">WEB DEVELOPER</p>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center text-lg sm:text-xl space-y-2 sm:space-y-0 sm:space-x-6">
+                <p class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                    65 Aurora Subdivision, Iloilo City
+                </p>
+                <p class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                    bktorres723@gmail.com
+                </p>
+                <p class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                    0950 347 3882
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <section class="section-bg-light rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">CAREER OBJECTIVE</h2>
+            <p class="text-lg leading-relaxed text-gray-700 text-center max-w-3xl mx-auto">
+                Enthusiastic and creative web development graduate with hands-on experience in HTML, CSS, JavaScript,
+                and responsive design. Seeking an entry-level Web Developer position to contribute to front-end and back-
+                end development projects while continuing to learn modern frameworks like React and Node.js. Eager to
+                build user-friendly, accessible, and high-performance websites that enhance the user experience.
+            </p>
+        </section>
+
+        <section class="section-bg-dark rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">TECHNICAL SKILLS</h2>
+            <div class="flex flex-wrap justify-center gap-3">
+                <span class="skill-badge">HTML, CSS and JavaScript</span>
+                <span class="skill-badge">Software & Application Installation</span>
+                <span class="skill-badge">Basic Troubleshooting</span>
+                <span class="skill-badge">Documentation</span>
+                <span class="skill-badge">PHP</span>
+                <span class="skill-badge">DB Fiddle - SQL Database</span>
+                <span class="skill-badge">Canva</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">GitHub</span>
+                <span class="skill-badge">Responsive Design</span>
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">Angular (familiar)</span>
+                <span class="skill-badge">Vue.js (familiar)</span>
+                <span class="skill-badge">Node.js (eager to learn)</span>
+            </div>
+        </section>
+
+        <section class="section-bg-light rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">INTERNSHIP / VOLUNTEER EXPERIENCE</h2>
+
+            <div class="space-y-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Student Intern, Procurement Management Office</h3>
+                    <p class="text-blue-600 font-medium mb-3">Feb 2024 - Aug 2024</p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Documents tracking and delivery</li>
+                        <li>Performed general clerical duties: filed, photocopied, and scanned various records.</li>
+                        <li>Maintain accurate procurement records and documentation.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Web Developer, KodeGo Bootcamp</h3>
+                    <p class="text-blue-600 font-medium mb-3">Mar 2023 - June 2023</p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Design, code, and modify websites from layout to function based on client or company specifications.</li>
+                        <li>Build responsive and user-friendly interfaces using HTML, CSS, JavaScript, and modern frameworks.</li>
+                        <li>Ensure cross-browser compatibility and optimize front-end performance.</li>
+                        <li>Used frameworks like React, Angular, or Vue.js (depending on the stack).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-bg-dark rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">EDUCATION</h2>
+
+            <div class="space-y-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Bachelor of Science in Information Technology</h3>
+                    <p class="text-blue-600 font-medium mb-3">Iloilo Science and Technology University</p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Thesis on "Development of Web-Based Pet Adoption System".</li>
+                        <li>Expected graduation Jun 2025.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Technological and Vocational Livelihood - Information Communications Technology</h3>
+                    <p class="text-blue-600 font-medium mb-3">Iloilo National High School - Senior High School</p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Programming and Animation</li>
+                        <li>Jun 2016 - April 2018.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-bg-light rounded-lg shadow-md p-8">
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">ADDITIONAL INFORMATION</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg text-gray-700">
+                <div>
+                    <h3 class="font-semibold text-gray-900 mb-2">Languages:</h3>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>Hiligaynon</li>
+                        <li>English</li>
+                        <li>Filipino</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-900 mb-2">Certifications:</h3>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>KodeGo Bootcamp</li>
+                        <li>Student Internship</li>
+                    </ul>
+                </div>
+                <div class="md:col-span-2">
+                    <h3 class="font-semibold text-gray-900 mb-2">Awards/Activities:</h3>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>Work Immersion Awardee 2018</li>
+                        <li>Best in Capstones (KodeGo Bootcamp 2023)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 px-4 sm:px-6 lg:px-8 text-center mt-12">
+        <p>&copy; 2025 Bryan Kent Torres. All rights reserved.</p>
+        <p class="text-sm mt-2">Built with HTML & Tailwind CSS</p>
+    </footer>
+
+</body>
+</html>
